@@ -1,0 +1,29 @@
+body{
+    color: indigo;
+}
+header, footer{
+    text-align: center;
+  
+}
+nav img{
+    height: 20px;
+}
+nav a{
+    font-size: 15px;
+}
+#form-nome{
+    background-color: yellow;
+}
+#form-email{
+    background-color: green;
+}
+input{
+    background-color: hotpink;
+}
+span{
+    background-color: red;
+    color: white;
+}
+table{
+    border: 1px solid black;
+}

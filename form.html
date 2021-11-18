@@ -25,21 +25,64 @@
 <header> <br>
 </nav>
 </div>
+<body>
 <main>
-    <h1>audio</h1>
+    <form action="formulário.html" method="GET">
+    <fieldset>
+        <legend>Formulário de Contacto</legend>
+        <div>
+        <label for="form-nome">Nome:</label>
+        <input type="text" name="form-nome" id="form-nome" value="" placeholder="Insira o seu nome" required> 
+        </div>
+        <div>
+        <label for="form-email">Email:</label>
+        <input type="email" name="form-email" id="form-email">
+    </div>
+    <div>
+        <br>
+        <label for="form-genero">Género</label><br>
+        <input type="radio" name="form-genero" id="form-genero-masculino">Masculino<br>
+        <input type="radio" name="form-genero" id="form-genero-feminino">Feminino<br>
+    </div>
+    <br>
+    <div>
+        <label for="form-dn">Data de Nascimento:</label>
+        <input type="date" name="form-dn" id="form-dn">
+    </div>
+    <div>
+        <label for="form-turma">Turma:</label>
+        <select name="form-turma" list="form-turma">
+            <option value="" disabled selected>Escolha uma opção</option>
+            <option value="">Programação</option>
+            <option value="">Redes</option>
+            <option value="">Outra</option> <br>
+        </select>
+        <div>
+            <label for="">Mensagem</label> <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </div>
+    <div>
+    <h1>Audio</h1>
     <audio src="video.mp4" controls></audio>
-    <h1>video</h1>
+    <h1>Video</h1>
     <video src="video.mp4" controls poster="transferir.jfif"></video>
-    <h1>iframe youtube</h1>
+    <h1>Iframe youtube</h1>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/3qaf77bFIKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h1>iframe minha página</h1>
+    <h1>Iframe exercicio</h1>
     <iframe src="exercicio.html" frameborder="0"></iframe>
-    <h1>instagram</h1>
+    </div>
+    </fieldset>
+    </form>
     </main>
     <footer>
         <h6> &copy; <strong>2021 ATEC I Todos os direitos reservados por I mim :) </strong></h6>
     </footer>
 
 
+
+
+    
 </body>
 </html>
